@@ -1,0 +1,726 @@
+
+{{Bolivia/Bootstrapcss}}
+
+{{Bolivia/Education}}
+
+{{Bolivia/BotonFlo}}
+
+<html lang="en">
+<style>
+
+.fas, .fa{
+   font-size:16px;
+}
+
+
+   #sideMenu, #top_title, .patrollink, #firstHeading,  #home_logo, #sideMenu { display:none; }
+#content { padding:0px; width:100%; margin-top:-63px; background-color: none; margin-left:0px; border:none;}
+#HQ_page p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    font-size  : var(--tamanioletras);
+}
+#bodyContent a[href ^="https://"], .link-https {
+    background: transparent;
+    padding-right: 16px;
+    color:var(--azul);
+}
+
+
+#content H1 {
+    font-weight: none;
+
+}
+#bodyContent h1, #bodyContent h2 {
+    margin-bottom: 0;
+}
+
+#HQ_page h1, h2, h3, h4, h5 {
+    font-family: 'Righteous', cursive;
+	padding :0 ;
+  	margin: 0;
+}
+</style>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Righteous&display=swap"
+        rel="stylesheet">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <title>Collaborations</title>
+</head>
+  
+  <body>
+    <header>
+       <div class="nav-principal">
+        <nav class="navbar navbar-expand-lg navbar-light my-navbar fixed-top  py-4" style="top: 16px; min-height: 75px;" id="nav">
+            <div class="container  d-md-flex">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler bg-white" onclick="navBarColor()" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-white"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item hover-nav">
+                            <a class="nav-link active" aria-current="page" href="https://2021.igem.org/Team:Bolivia">HOME</a>
+
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                AWARDS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Inclusivity">
+                                        INCLUSIVITY</a></p>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://2021.igem.org/Team:Bolivia/Excellence">EXCELLENCE</a></p>
+                                </li>
+<li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Education">EDUCATION</a></p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                TEAM
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item"
+                                        href="https://2021.igem.org/Team:Bolivia/Collaborations">COLLABORATIONS</a></p>
+                                </li>
+                                <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Team">TEAM</a>
+                                    </p>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://2021.igem.org/Team:Bolivia/Attributions">ATTRIBUTIONS</a></p>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PROJECT
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item"
+                                        href="https://2021.igem.org/Team:Bolivia/Description">DESCRIPTION</a></p>
+                                </li>
+                                <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Design">DESIGN</a>
+                                    </p>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://2021.igem.org/Team:Bolivia/Engineering">ENGINEERNING</a></p>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://2021.igem.org/Team:Bolivia/Contribution">CONTRIBUTION</a></p>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://2021.igem.org/Team:Bolivia/LaboratoryProtocols">LAB PROTOCOLS</a>
+                                    </p>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://2021.igem.org/Team:Bolivia/Hardware">HARDWARE</a></p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"  id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                HP
+                            </a>
+                            <ul class="dropdown-menu" style="position:relative; left: -80px;
+    top: 0px;" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Human_Practices">HUMAN PRACTICES</a></p>
+                                </li>
+                                <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Implementation">PROPOSED IMPLEMENTATION</a></p>
+                                </li>
+                                  <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Communication">COMMUNICATION</a></p>
+                                </li>
+                            </ul>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+ <style>
+         .dropdown-item{
+           color: var(--azul);
+          }
+.nav-item{
+ height:48px
+}
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
+</style>
+    </div>
+
+
+
+        <!-- Banner de Imagenes -->
+
+        <div class="pic-wrapper">
+            <figure class="pic-1">
+            </figure>
+            <figure class="pic-2">
+            </figure>
+            <figure class="pic-3">
+            </figure>
+            <figure class="pic-4">
+            </figure>
+            <div class="fondo-banner ">
+            </div>
+            <div class="text-banner d-flex align-items-end">
+                <div class="row fila-banner">
+                    <div class="team">
+                        <h4 class="title-small text-center text-md-start" ><span class="text-white">TEAM</span> BOLIVIA
+                        </h4>
+                        <img src="https://2021.igem.org/wiki/images/f/fa/T--Bolivia--description_fig1.png"
+                            class="logo-arsenito d-none d-md-block" alt="" />
+                    </div>
+                    <h1 class="text-center text-md-start text-white titulo-principal">EDUCATION</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <style>
+        .accordion-button:not(.collapsed) {
+            color: var(--verde);
+            background-color: #e7f1ff00;
+            box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+        }
+
+        .accordion-item {
+            background-color: #fff0;
+            border: 0px;
+        }
+    </style>
+    <!-- BOTON FLOTANTE -->
+    <div class="wrapper">
+        <input type="checkbox" />
+        <div class="fab"></div>
+        <div class="fac">
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Up"><i
+                    class="fas fa-chevron-up"></i></a>
+            <a type="button" onclick="aleatorio()" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="Random Color"><i class="fas fa-random"></i></a>
+            <a onclick="modoNocturno()" id="luna" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="Dark Mode"><i class="fas fa-moon"></i></a>
+            <a onclick="modoDia()" id="sol" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sun Mode"><i
+                    class="fas fa-sun"></i></a>
+
+            <a onclick="aumentarLetras()" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Letter ++"><i
+                    class="fas fa-search-plus"></i></a>
+            <a onclick="disminuirLetras()" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Letter --"><i
+                    class="fas fa-search-minus"></i></a>
+        </div>
+    </div>
+    <div id="body">
+    <div class="container pt-5">
+        <h2 class="text-center text-celeste p-3">EDUCATION & PUBLIC ENGAGEMENT</h2>
+        <p>As an opportunity to save for our competition registration, and the help of our instructors, we were able to offer these courses.</p>
+        <div class="row">
+            <div class="col-md-8">
+                <ul>
+                    <li><p><strong>Year 2021: </strong></p></li>
+                    <ol>
+                        <li><p>Introduction to Biotechnology applied to Viruses</p></li>
+                        <li><p>Graphing for publication of scientific research results using the R system.  </p></li>
+                    </ol>
+                    <li><p><strong>Year 2020:</strong></p></li>
+                    <ol>
+                        <li><p>Introduction to Bioinformatics: Concepts and Applications in Microbial Genetics
+</p></li>
+                        <li><p>Reading, Writing and Presenting Scientific Articles</p></li>
+                        <li><p> Pre-university preparation courses for the School of Medicine-UMSA</p></li>
+                        <li><p>Open lab (Molecular Biology and Synthetic Biology)
+</p> </li>
+                        <li><p>Yeast Biotechnology</p></li>
+                    </ol>
+                </ul>
+            </div>
+            <div class="col-md-4 p-5">
+                <img src="https://2021.igem.org/wiki/images/6/6d/T--Bolivia--Plasmidoceleste.png" alt="" style="width: 100%;">
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-6">
+                <img src="https://2021.igem.org/wiki/images/d/dc/T--Bolivia--besteducation_img2.png" alt="" style="width: 100%;" class="img">
+            </div>
+            <div class="col-6">
+                <img src="https://2021.igem.org/wiki/images/1/1c/T--Bolivia--besteducation_img3.png" alt="" style="width: 100%;"  class="img">
+            </div>
+        </div>
+        <h3 class="text-center text-celeste p-5">NutriGEM</h3>
+        <p>The NutriGEM section had the objective of informing on social networks about the use of probiotics and the importance of science in our food. We developed a free webinar together with the "Comunidad Mujeres Cerveceras Bolivia", to teach the cultivation of probiotics with more than 1,200 views, 12 infographics were presented that had an average of 100 reactions and were shared an average of 40 times. NutriGEM is a prototype of entrepreneurship formed by our team to support fundraising by offering a nutritious alternative to the public, through cookies with designs alluding to scientific topics.
+</p>        
+        <div class="row pt-4">
+            <div class="video-re">
+                <video src="https://2021.igem.org/wiki/images/1/11/T--Bolivia--besteducation_video2.mp4"
+                                        id="video1" controls class="w-100"></video>
+                <div class="btnVideo" id="btnV1" onclick="reproVideo(1)">
+                                        <div class="center">
+                                            <div class="pulse">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                        </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="text-center text-celeste p-5">CoviGEM</h3>
+        <p>The CoviGEM sector was born from the need to <strong>combat the rampant misinformation circulating in social networks about different topics related to the COVID-19 pandemic.</strong> Our team members and volunteers started with the discussion of several of the most updated scientific articles <strong>with the aim of creating infographics.</strong> We decided to divide the information into two different areas, which we considered to be where most false information was being spread: </p> 
+<p><strong>- Communication:</strong> In charge of debunking false information about COVID in general.</p>
+<p><strong>- Vaccines:</strong> Where we explained all the processes behind the development of the vaccines that arrived in our country.</p>
+<p>The infographics were made in Spanish because we wanted to <strong>maximize the impact of our publications in the population of our country</strong> and, taking advantage of the reach of our social networks, in other regions of Latin America.  </p>
+<p>We produced 2 versions of each  infographic following different approaches, <strong>one technical/scientific</strong> aimed at specialized audiences and other <strong>simplified and accessible</strong> aimed at the general public.  </p>
+<p>Our statistics show that each infographic had an average of <strong>50 reactions,</strong> were <strong>shared 24 times</strong> and had a <strong>reach of 2843 people.</strong></p>
+        
+        <h3 class="text-celeste pt-5">Infographics</h3>
+        <div class="row ">
+            <div class="col-4 p-2">
+                <img src="https://2021.igem.org/wiki/images/2/21/T--Bolivia--besteducation_img4.png" alt="" class="img" style="width: 100%;">
+            </div>
+            <div class="col-4 p-2">
+                <img src="https://2021.igem.org/wiki/images/8/8a/T--Bolivia--besteducation_img5.png" alt="" class="img" style="width: 100%;">
+            </div>
+            <div class="col-4 p-2">
+                <img src="https://2021.igem.org/wiki/images/7/70/T--Bolivia--besteducation_img6.png" alt="" class="img" style="width: 100%;">
+            </div>
+        </div>
+
+        <h3 class="text-center text-celeste p-5">JOURNAL CLUB </h3>  
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 mb-3">
+                <p>Its main objective is to spread biotechnology from scientific articles and share opinions about them, based on interesting and controversial topics, through social networks of iGem Bolivia, to reach the general public, and develop the culture of reading papers in our country.
+                </p> 
+                <p>In each session a color of Biotechnology is presented, for example the first session was green biotechnology, and experts in different areas are presented as well as students from universities of various careers, not only from Bolivia, but also from other country</p>
+            </div> 
+            <div class="col-xs-12 col-sm-12 col-md-6 mb-3 img">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="https://2021.igem.org/wiki/images/0/07/T--Bolivia--besteducation_img7.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://2021.igem.org/wiki/images/1/15/T--Bolivia--besteducation_img8.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://2021.igem.org/wiki/images/9/9c/T--Bolivia--besteducation_img9.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        </div>
+        <h3 class="text-center text-celeste p-5">STEAM LEAGUE</h3> 
+        <p>During 2020 and because of the world pandemic, a group of initiatives that works with STEAM topics, developed the idea of making support videos for young people from 15-18 years. The <strong>iGEM Bolivia team collaborated with 40 episodes for Biology</strong> and included topics of genetics, microorganisms and found new talents to present them. Liga STEAM has developed more than 500 educational support videos.</p>
+        <div class="row p-5">
+            <div class="col-md-6">
+                <img src="https://2021.igem.org/wiki/images/6/6e/T--Bolivia--besteducation_img14.png" alt="" class="img" style="width: 100%;">
+            </div>
+            <div class="col-md-6 pt-4">
+                <img src="https://2021.igem.org/wiki/images/a/a2/T--Bolivia--besteducation_img10.png" alt="" class="img" style="width: 100%;">
+            </div>
+        </div>
+        <p>These videos are currently being transmitted by the country's telecommunications agency called ABE and are free and available at the Youtube channel from iGEM Bolivia and Liga STEAM.</p>
+        <div class="row p-5">
+            <div class="col-md-6">
+                <img src="https://2021.igem.org/wiki/images/e/ea/T--Bolivia--besteducation_img11.png" alt="" class="img" style="width: 100%;">
+            </div>
+            <div class="col-md-6 pt-3">
+                <img src="https://2021.igem.org/wiki/images/9/92/T--Bolivia--besteducation_img12.png" alt="" class="img" style="width: 100%;">
+            </div>
+
+            <div class="row pt-4">
+                <div class="col-6-auto">
+                    <img src="https://2021.igem.org/wiki/images/5/5b/T--Bolivia--besteducation_img13.png" alt="" class="img" style="width: 100%;">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+      <br><br><br><br>
+
+
+
+<footer class="footer">
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+
+        <ul class="social-icon">
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/iGEMBolivia">
+                    <i class="fab fa-facebook text-white"></i>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="https://twitter.com/igemBolivia">
+                    <i class="fab fa-twitter text-white"></i>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/company/igem-bolivia2021/mycompany/">
+                    <i class="fab fa-linkedin-in text-white"></i>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/igembolivia/?hl=es-la">
+                    <i class="fab fa-instagram text-white"></i>
+                </a></li>
+<li class="social-icon__item"><a class="social-icon__link" href="https://www.youtube.com/channel/UCQD9YNYrCGa2JKQithI5wkA">
+                    <i class="fab fa-youtube text-white"></i>
+                </a></li>
+<li class="social-icon__item"><a class="social-icon__link" href="https://open.spotify.com/show/1FepUwBlSiNmBvh5kkKsqz?si=45332b1d31764751">
+                    <i class="fab fa-spotify text-white"></i>
+                </a></li>
+        </ul>
+
+        <div class="row p-0 m-0 d-flex">
+            <div class="">
+                <ul class="my-lista navbar-nav d-flex  justify-content-center">
+                    <div class="row d-flex justify-content-center">
+
+                        <div class="col-xs-12 col-sm-6 col-md-6 d-md-flex justify-content-end ">
+                            <li class="nav-item m-0  mx-md-5 hover-nav">
+                                <a class="nav-link text-center active" aria-current="page" href="https://2021.igem.org/Team:Bolivia">HOME</a>
+
+                            </li>
+                            <li class="nav-item m-0 dropdown">
+                                <a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    AWARDS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Inclusivity">
+                                            INCLUSIVITY</a></p>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Excellence">EXCELLENCE</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item m-0  mx-md-5 dropdown">
+                                <a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    TEAM
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class=" text-center dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Collaborations">COLLABORATIONS</a>
+                                        </p>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Team">TEAM</a>
+                                        </p>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Attributions">ATTRIBUTIONS</a></p>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 d-md-flex justify-content-start">
+                            <li class="nav-item  m-0  mx-md-5 dropdown">
+                                <a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    PROJECT
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Description">DESCRIPTION</a></p>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Design">DESIGN</a>
+                                        </p>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Engineering">ENGINEERNING</a></p>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Contribution">CONTRIBUTION</a></p>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/LaboratoryProtocols">LAB
+                                            PROTOCOLS</a></p>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Hardware">HARDWARE</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item m-0  mx-md-5 dropdown">
+                                <a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    HP
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Human_Practices">HUMAN PRACTICES</a></p>
+                                    </li>
+                                    <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Integrated">INTEGRATED</a></p>
+                                    </li>
+                                    <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Implementation">PROPOSED IMPLEMENTATION</a></p>
+                                    </li>
+                                    <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Education">EDUCATION </a></p>
+                                    </li>
+  <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Communication">COMMUNICATION</a></p>
+                                </li>
+                                </ul>
+                                </p>
+                            </li>
+                        </div>
+
+                    </div>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="row  p-0 m-0">
+            <div class="col-xs-6 col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
+                <img src="https://2021.igem.org/wiki/images/1/19/T--Bolivia--sponsorAniaki.png" width="30%" alt="">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
+                <img src="https://2021.igem.org/wiki/images/3/38/T--Bolivia--Bago.png" width="50%" alt="">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
+                <img src="https://2021.igem.org/wiki/images/4/46/T--Bolivia--IDT.png" width="50%" alt="">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
+                <img src="https://2021.igem.org/wiki/images/1/15/T--Bolivia--ZymoResearch.png" width="40%" alt="">
+            </div>
+        </div>
+<style>
+
+.footer {
+    position: relative;
+    width: 100%;
+    background: var(--celeste);
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    bottom: -25px;
+  }
+  
+  .social-icon
+   {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+
+    background: transparent;
+
+  }
+  
+  .social-icon__item {
+    list-style: none;
+  
+    background: transparent;
+
+}
+  
+  .social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+
+    background: transparent;
+
+  }
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+
+    background: transparent;
+
+  }
+  
+  
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("https://2021.igem.org/wiki/images/2/23/T--Bolivia--footerWave.png");
+    background-size: 1000px 100px;
+  }
+  
+  .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+  }
+  
+  .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+  }
+  
+  .wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+  }
+  
+  .wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+  }
+  
+  @keyframes animateWaves {
+    0% {
+      background-position-x: 1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position-x: -1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+
+
+@media(max-width:768px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+}
+</style>
+    </footer>
+    </div>
+  </body>
+  
+  <script src="https://2021.igem.org/wiki/index.php?title=Template:Bolivia/BootstrapJS&action=raw&ctype=text/javascript"></script>
+
+<script src="https://2021.igem.org/wiki/index.php?title=Template:Bolivia/ButtonFlo&action=raw&ctype=text/javascript"></script>
+<script>
+function navBarColor() {
+        document.getElementById('nav').classList.add('my-nav')
+    }
+    window.addEventListener('scroll', (e) => {
+        let y = window.scrollY;
+        if (y >= 500) {
+            document.getElementById('nav').classList.add('my-nav')
+        } else {
+            document.getElementById('nav').classList.remove('my-nav')
+
+        }
+        if (y > 9800) {
+            document.getElementById('pestania2').classList.remove('box-icon-select')
+            document.getElementById('pestania3').classList.add('box-icon-select')
+            document.getElementById('pestania1').classList.add('box-icon-select')
+        } else {
+            document.getElementById('pestania3').classList.remove('box-icon-select')
+            document.getElementById('pestania2').classList.add('box-icon-select')
+            document.getElementById('pestania1').classList.add('box-icon-select')
+        }
+
+
+        if (y > 16472) {
+            document.getElementById('pestania1').classList.remove('box-icon-select')
+            document.getElementById('pestania2').classList.remove('box-icon-select')
+            document.getElementById('pestania3').classList.remove('box-icon-select')
+            document.getElementById('pestania4').classList.add('box-icon-select')
+            document.getElementById('pestania5').classList.add('box-icon-select')
+        } else {
+            document.getElementById('pestania4').classList.remove('box-icon-select')
+            document.getElementById('pestania5').classList.remove('box-icon-select')
+        }
+        
+        if(y>17448){
+            document.getElementById('pestania4').classList.add('box-icon-select')
+            document.getElementById('pestania6').classList.add('box-icon-select')
+            document.getElementById('pestania5').classList.remove('box-icon-select')
+        }else{
+            document.getElementById('pestania6').classList.remove('box-icon-select')
+        }
+
+        if(y>18448){
+            document.getElementById('pestania4').classList.add('box-icon-select')
+            document.getElementById('pestania7').classList.add('box-icon-select')
+            document.getElementById('pestania6').classList.remove('box-icon-select')
+        }else{
+            document.getElementById('pestania7').classList.remove('box-icon-select')
+        }
+        if(y>19448){
+            document.getElementById('pestania4').classList.add('box-icon-select')
+            document.getElementById('pestania8').classList.add('box-icon-select')
+            document.getElementById('pestania7').classList.remove('box-icon-select')
+        }else{
+            document.getElementById('pestania8').classList.remove('box-icon-select')
+        }
+        if(y>20448){
+            document.getElementById('pestania4').classList.add('box-icon-select')
+            document.getElementById('pestania9').classList.add('box-icon-select')
+            document.getElementById('pestania8').classList.remove('box-icon-select')
+        }else{
+            document.getElementById('pestania9').classList.remove('box-icon-select')
+        }
+        
+
+    })
+
+
+</script>
+<script>
+    function reproVideo(id) {
+
+        let videoPlay = document.getElementById(`video${id}`)
+
+        document.getElementById(`btnV${id}`).style.visibility = 'hidden'
+        videoPlay.play();
+    }
+</script>
+</html>
