@@ -1,0 +1,2204 @@
+
+{{Bolivia/Bootstrapcss}}
+
+{{Bolivia/Collaborations}}
+
+{{Bolivia/BotonFlo}}
+
+<html lang="en">
+<style>
+
+.fas, .fa{
+   font-size:16px;
+}
+
+
+   #sideMenu, #top_title, .patrollink, #firstHeading,  #home_logo, #sideMenu { display:none; }
+#content { padding:0px; width:100%; margin-top:-63px; background-color: none; margin-left:0px; border:none;}
+#HQ_page p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    font-size  : var(--tamanioletras);
+}
+#bodyContent a[href ^="https://"], .link-https {
+    background: transparent;
+    padding-right: 16px;
+color:var(--azul)
+}
+
+
+#content H1 {
+    font-weight: none;
+
+}
+#bodyContent h1, #bodyContent h2 {
+    margin-bottom: 0;
+}
+
+#HQ_page h1, h2, h3, h4, h5 {
+    font-family: 'Righteous', cursive;
+    border-bottom: none;
+    font-weight: none;
+}
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Righteous&display=swap"
+        rel="stylesheet">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <title>Collaborations</title>
+</head>
+
+
+<body>
+
+
+    <header>
+         <div class="nav-principal">
+        <nav class="navbar navbar-expand-lg navbar-light my-navbar fixed-top  py-4" style="top: 16px; min-height: 75px;" id="nav">
+            <div class="container  d-md-flex">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler bg-white" onclick="navBarColor()" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-white"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item hover-nav">
+                            <a class="nav-link active" aria-current="page" href="https://2021.igem.org/Team:Bolivia">HOME</a>
+
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                AWARDS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Inclusivity">
+                                        INCLUSIVITY</a></p>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://2021.igem.org/Team:Bolivia/Excellence">EXCELLENCE</a></p>
+                                </li>
+<li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Education">EDUCATION</a></p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                TEAM
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item"
+                                        href="https://2021.igem.org/Team:Bolivia/Collaborations">COLLABORATIONS</a></p>
+                                </li>
+                                <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Team">TEAM</a>
+                                    </p>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://2021.igem.org/Team:Bolivia/Attributions">ATTRIBUTIONS</a></p>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PROJECT
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item"
+                                        href="https://2021.igem.org/Team:Bolivia/Description">DESCRIPTION</a></p>
+                                </li>
+                                <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Design">DESIGN</a>
+                                    </p>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://2021.igem.org/Team:Bolivia/Engineering">ENGINEERNING</a></p>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://2021.igem.org/Team:Bolivia/Contribution">CONTRIBUTION</a></p>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://2021.igem.org/Team:Bolivia/LaboratoryProtocols">LAB PROTOCOLS</a>
+                                    </p>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://2021.igem.org/Team:Bolivia/Hardware">HARDWARE</a></p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"  id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                HP
+                            </a>
+                            <ul class="dropdown-menu" style="position:relative; left: -80px;
+    top: 0px;" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Human_Practices">HUMAN PRACTICES</a></p>
+                                </li>
+                                <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Implementation">PROPOSED IMPLEMENTATION</a></p>
+                                </li>
+                                  <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Communication">COMMUNICATION</a></p>
+                                </li>
+                            </ul>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+ <style>
+         .dropdown-item{
+           color: var(--azul);
+          }
+.nav-item{
+ height:48px
+}
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
+</style>
+    </div>
+
+
+        <!-- Fin navbar -->
+
+
+        <!-- Banner de Imagenes -->
+
+        <div class="pic-wrapper">
+            <figure class="pic-1">
+            </figure>
+            <figure class="pic-2">
+            </figure>
+            <figure class="pic-3">
+            </figure>
+            <figure class="pic-4">
+            </figure>
+            <div class="fondo-banner ">
+            </div>
+            <div class="text-banner">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="row fila-banner">
+                            <div class="team">
+                                <h4 class="title-small text-center text-md-start"><span class="text-white">TEAM</span>
+                                    BOLIVIA
+                                </h4>
+                            </div>
+                            <h1 class="text-center m-0 text-md-start text-white pt-0 titulo-principal">COLLABORATIONS</h1>
+                            <p class="text-white text-white text-sm-center text-md-start" style="font-size: 20px;">
+                                Working as a team we always shine more</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+    </header>
+
+
+    <style>
+        .accordion-button:not(.collapsed) {
+            color: var(--verde);
+            background-color: #e7f1ff00;
+            box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+        }
+
+        .accordion-item {
+            background-color: #fff0;
+            border: 0px;
+        }
+    </style>
+    <!-- BOTON FLOTANTE -->
+    <div class="wrapper">
+        <input type="checkbox" />
+        <div class="fab"></div>
+        <div class="fac">
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Up"><i
+                    class="fas fa-chevron-up"></i></a>
+            <a type="button" onclick="aleatorio()" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="Random Color"><i class="fas fa-random"></i></a>
+            <a onclick="modoNocturno()" id="luna" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="Dark Mode"><i class="fas fa-moon"></i></a>
+            <a onclick="modoDia()" id="sol" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sun Mode"><i
+                    class="fas fa-sun"></i></a>
+
+            <a onclick="aumentarLetras()" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Letter ++"><i
+                    class="fas fa-search-plus"></i></a>
+            <a onclick="disminuirLetras()" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Letter --"><i
+                    class="fas fa-search-minus"></i></a>
+        </div>
+    </div>
+<div id="body">
+    <div class="row p-0 m-0">
+        <!-- menu lateral -->
+        <div class="d-none mt-lg-5  col-lg-3 d-md-flex justify-content-center ">
+            <div class="menulateral">
+                <div class="accordion " id="accordionExample">
+                    <div class="accordion-item">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <a href="#creations" class="box-icon box-icon-select">
+                                <div class="diviconMenu ">
+                                    <img src="https://2021.igem.org/wiki/images/b/b5/T--Bolivia--iconCollaborations1.png"
+                                        alt="" class="iconMenu">
+                                </div>
+                                <div class="text-menu title text-uppercase" id="pestania1">
+                                    OUR creations
+                                    <br>
+                                </div>
+                            </a>
+                            <a data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                style="list-style: none; color: var(--verde); cursor: pointer;width: 87px;"
+                                aria-expanded="true" aria-controls="collapseOne"><i
+                                    class=" mx-5 fas fa-chevron-down"></i></a>
+
+                        </div>
+
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <a href="#creations" class="box-icon box-icon-select" id="pestania2">
+                                    <div class="diviconMenu">
+                                        <img src="https://2021.igem.org/wiki/images/e/e4/T--Bolivia--iconCollaborations2.png"
+                                            alt="" class=" iconSubMenu">
+                                    </div>
+                                    <div class="text-submenu">
+                                        Hispanic Debate <br> Workshop 2021
+                                    </div>
+                                </a>
+                                <a href="#collaborate" class="box-icon" id="pestania3">
+                                    <div class="diviconMenu">
+                                        <img src="https://2021.igem.org/wiki/images/3/38/T--Bolivia--iconCollaborations3.png"
+                                            alt="" class="iconSubMenu">
+                                    </div>
+                                    <div class="text-submenu">
+                                        Handbook <br> “iGEM for Beginners”
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item p-0">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <a class="box-icon collapsed " href="#participations" style="position: relative;">
+                                <div class="diviconMenu">
+                                    <img src="https://2021.igem.org/wiki/images/c/c0/T--Bolivia--iconCollaborations4.png"
+                                        alt="" class="iconMenu">
+                                </div>
+                                <div class="text-menu title" id="pestania4">
+                                    OUR <br> PARTICIPATIONS
+                                </div>
+
+                            </a>
+
+                            <a data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo"
+                                style="list-style: none; color: var(--verde); cursor: pointer; width: 72px;">
+                                <i class=" mx-3 fas fa-chevron-down"></i>
+                            </a>
+
+                        </div>
+
+
+
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <a class="box-icon" href="#collaborate" id="pestania5">
+                                    <div class="diviconMenu">
+                                        <img src="https://2021.igem.org/wiki/images/2/22/T--Bolivia--iconCollaborations5.png"
+                                            alt="" class="iconSubMenu">
+                                    </div>
+                                    <div class="text-submenu">
+                                        Interviews with <br> after iGEMers
+                                    </div>
+                                </a>
+                                <a class="box-icon" href="#uan" id="pestania6">
+                                    <div class="diviconMenu">
+                                        <img src="https://2021.igem.org/wiki/images/0/06/T--Bolivia--iconCollaborations6.png"
+                                            alt="" class="iconSubMenu">
+                                    </div>
+                                    <div class="text-submenu">
+                                        iGEM UANL
+                                    </div>
+                                </a>
+                                <a class="box-icon" href="#water" id="pestania7">
+                                    <div class="diviconMenu">
+                                        <img src="https://2021.igem.org/wiki/images/0/06/T--Bolivia--iconCollaborations6.png"
+                                            alt="" class="iconSubMenu">
+                                    </div>
+                                    <div class="text-submenu">
+                                        iGEM Waterloo
+                                    </div>
+                                </a>
+                                <a class="box-icon" href="#duss" id="pestania8">
+                                    <div class="diviconMenu">
+                                        <img src="https://2021.igem.org/wiki/images/0/06/T--Bolivia--iconCollaborations6.png"
+                                            alt="" class="iconSubMenu">
+                                    </div>
+                                    <div class="text-submenu">
+                                        iGEM Düsseldorf
+                                    </div>
+                                </a>
+                                <a class="box-icon" href="#patra" id="pestania9">
+                                    <div class="diviconMenu">
+                                        <img src="https://2021.igem.org/wiki/images/0/06/T--Bolivia--iconCollaborations6.png"
+                                            alt="" class="iconSubMenu">
+                                    </div>
+                                    <div class="text-submenu">
+                                        iGEM Patras
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+        <!-- end menu lateral -->
+
+        <div class="col-lg-9 p-0">
+
+            <!-- Hispanic Debate Workshop -->
+            <section class="bg-celeste pb-5" id="creations">
+                <div class="container px-5 ">
+
+                    <div class="row flex-column d-flex justify-content-center align-items-center ">
+                        <div class="col-md-12 flex-column d-flex justify-content-center align-items-center ">
+                            <h2 class="text-verde my-4 pt-5">OUR CREATIONS</h2>
+                            <h2 class="text-verde">Hispanic Debate Workshop 2021</h2>
+                            <h3 class="text-verde pt-5 ">MOTIVATION
+                            </h3>
+                            <p><strong class="text-verde"> iGEM Bolivia</strong> began after debates in 2020, where it
+                                emerged as a platform for handling controversial issues surrounding synthetic biology
+                                that would be amenable to supporting differing points of view. In the same year, some
+                                iGEMers learned techniques and tools necessary for debate thanks to the Debate School.
+                                We have already been able to organize an event at the Latin American level for 2021,
+                                where we shared knowledge acquired from the previous year. Teachers capable of running a
+                                workshop and other iGEM teams were invited so that young scientists could learn more
+                                about these tools and be able to interpret opposing thoughts in a more logical,
+                                collaborative and orderly way.
+                            </p>
+                        </div>
+                        <div class="col-xs-12  col-md-6 d-flex justify-content-center my-5">
+                            <!-- slider  -->
+                            <div id="entrevista1" class="carousel slide " style="width: 100%;" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#entrevista1" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#entrevista1" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://2021.igem.org/wiki/images/8/82/T--Bolivia--collaborations_hispanic_img1.a.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/d/dc/T--Bolivia--collaborations_hispanic_img1.b.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#entrevista1"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#entrevista1"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <!-- end slider -->
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <div class="container px-5 my-5">
+                <h2 class="text-verde mb-4">
+                    OBJECTIVE
+                </h2>
+                <p>The main objective of this activity was to encourage young people in Latin America to develop
+                    rhetorical
+                    and critical thinking skills conducive to analyzing controversial topics in synthetic biology,
+                    thereby
+                    enabling them to achieve higher order thought processes based on well-documented information.
+                </p>
+            </div>
+
+
+
+            <section class="bg-celeste py-5">
+                <div class="container  px-5">
+                    <h2 class="text-verde mb-4">ABOUT THE EVENT</h2>
+                    <p>To start with this great event, we required the help of other teams, who responded to our call
+                        and with
+                        whom we could work over a month to meet common objectives and communicate science differently
+                        through
+                        debate. iGEM Ecuador, iGEM FCB - UANL and iGEM UAM.</p>
+                    <div class="row mt-5">
+                        <!-- EQUIPO -->
+                        <h2 class="text-center text-verde mb-4">TEAMS</h2>
+                        <div class="col-sm-6 col-lg-4 pt-5  d-flex justify-content-center mb-5">
+                            <img src="https://2021.igem.org/wiki/images/4/49/T--Bolivia--collaborations-img2.1.3.png"
+                                class="teamHover" alt="">
+                        </div>
+                        <div class="col-sm-6 mb-5 col-lg-4 d-flex justify-content-center mb-5"><img
+                                src="https://2021.igem.org/wiki/images/e/e8/T--Bolivia--collaborations_hispanic_img3.png"
+                                class="teamHover" alt=""></div>
+                        <div class="col-sm-6 col-lg-4 d-flex justify-content-center mb-5"><img
+                                src="https://2021.igem.org/wiki/images/2/2b/T--Bolivia--collaborations_hispanic_img4.png"
+                                class="teamHover" alt=""></div>
+
+
+                    </div>
+                    <br><br>
+                    <div class="row d-flex justify-content-center">
+                        <!-- INSTRUCTORES -->
+                        <h2 class="text-center text-verde mb-4">INSTRUCTORS</h2>
+
+                        <div class="col-xs-12 col-lg-8 p-0">
+                            <img src="https://2021.igem.org/wiki/images/f/fc/T--Bolivia--collaborations_hispanic_img5.png"
+                                alt="" class="w-100">
+
+                        </div>
+
+                    </div>
+
+            </section>
+
+
+            <section>
+                <div class="container px-lg-5">
+                    <div class="row d-flex justify-content-center align-items-center ">
+                        <div
+                            class="col-lg-4 d-flex flex-column justify-content-center align-items-center card-bg-celeste ">
+                            <p class="">We began by holding three workshops in which all participants were able to
+                                interact and
+                                learn
+                                the
+                                necessary tools for a debate: </p>
+                            <p>
+                                "Argumentation and Counter Argumentation" was taught by Antonio Zarate Ramos, who covered the bases of argumentation and dialectics. This workshop closed with a very dynamic and interactive activity where participants practiced what they had learned.
+
+                            </p>
+                        </div>
+                        <div class="col-lg-8 p-0">
+                            <div class="">
+                                <!-- slider  -->
+                                <div id="slider1" class="carousel slide my-slider" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#slider1" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#slider1" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#slider1" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://2021.igem.org/wiki/images/2/29/T--Bolivia--collaborations_hispanic_img6.a.png"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/d/de/T--Bolivia--collaborations_hispanic_img6.b.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/f/f8/T--Bolivia--collaborations_hispanic_img6.c.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#slider1"
+                                        data-bs-slide="prev">
+                                        <i class="fa fa-chevron-left text-verde"></i>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#slider1"
+                                        data-bs-slide="next">
+                                        <i class="fa fa-chevron-right text-verde"></i>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <!-- end slider -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section>
+
+                <div class="container px-lg-5">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-lg-8 p-0">
+                            <div class="">
+                                <!-- slider  -->
+                                <div id="sld2" class="carousel slide my-slider" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#sld2" data-bs-slide-to="0" class="active"
+                                            aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#sld2" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#sld2" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://2021.igem.org/wiki/images/5/5b/T--Bolivia--collaborations_hispanic_img7.a.png"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/6/67/T--Bolivia--collaborations_hispanic_img7.b.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/c/c9/T--Bolivia--collaborations_hispanic_img7.c.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#sld2"
+                                        data-bs-slide="prev">
+                                        <i class="fa fa-chevron-left text-verde"></i>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#sld2"
+                                        data-bs-slide="next">
+                                        <i class="fa fa-chevron-right text-verde"></i>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <!-- end slider -->
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 d-flex flex-column justify-content-center align-items-center card-bg-verde">
+                            <br>
+                            <p>"Roles of Judges and Zigzag Format", taught by José Luis Feliciano Chipana, is a very
+                                important topic when it comes to participating as a judge or speaker in a debate. The
+                                segment ended with a mock debate in this format.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container px-lg-5">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div
+                            class="col-lg-4 d-flex flex-column justify-content-center align-items-center card-bg-celeste">
+                            <br><br>
+                            <p>"If knowledge is controversial, do we debate?". Together with Gabriela Rivadeneira Caballero MSc. tutor of iGEM BOLIVIA, who spoke to us about how to convey our ideas regarding the position of an issue.</p>
+                            <p style="font-weight: bold;"> " ... we must notice the culture, be able to transmit
+                                scientific knowledge to a target
+                                group, we will see that knowledge becomes controversial and we have the challenge of
+                                being able to transmit this scientific knowledge in a friendly way.”</p>
+                            <div class="row d-flex justify-content-end align-items-end p-0 m-0">
+                                <p class="text-end">---Gabriela Rivadeneira Caballero MSc.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 p-0">
+                            <div class="">
+                                <div id="slider3" class="carousel slide my-slider" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#slider3" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#slider3" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#slider3" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://2021.igem.org/wiki/images/d/d3/T--Bolivia--collaborations_hispanic_img8.a.png"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/4/48/T--Bolivia--collaborations_hispanic_img8.b.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/3/3a/T--Bolivia--collaborations_hispanic_img8.c.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#slider3"
+                                        data-bs-slide="prev">
+                                        <i class="fa fa-chevron-left text-verde"></i>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#slider3"
+                                        data-bs-slide="next">
+                                        <span class="visually-hidden">Next</span>
+                                        <i class="fas fa-chevron-right text-verde"></i>
+                                    </button>
+                                </div>
+                                <!-- end slider -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <br> <br>
+                    <!-- slider  -->
+
+                </div>
+            </section>
+
+
+            <section class="bg-celeste">
+                <div class="container px-5 py-5 ">
+                    <h2 class="text-verde mb-4">ABOUT THE TOURNAMENT</h2>
+                    <p>The Debate Tournament was held on Saturday 19th and Sunday 20th, June 2021, where a total of eight
+                        teams participated. From this first tournament we obtained the semifinalists who debated the
+                        following motions:</p>
+                    <div class="row ">
+                        <div
+                            class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center flex-column ">
+                            <div class="lista mb-5">
+                                <div class="lista-item">
+                                    <i class=" text-verde fas fa-check mx-4" style="font-size: 18px;"></i>
+                                    <p>Should Synthetic Biology be restricted for the precaution of bioterrorism? iGEM
+                                        Bolivia as affirmative and FCB-UANL as negative.</p>
+                                </div>
+                                <div class=" lista-item">
+                                    <i class=" text-verde  fas fa-check mx-4" style="font-size: 18px;"></i>
+                                    <p>Is it ethical to use aborted human embryos for experiments? UAM participated as
+                                        affirmative and SYNTHETIC BIOBOTS as negative.</p>
+                                </div>
+                            </div>
+
+                            <!-- Slider pdf -->
+                            <div id="slider4" class="carousel slide my-carousel" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#slider4" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#slider4" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#slider4" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://2021.igem.org/wiki/images/6/63/T--Bolivia--collaborations_hispanic_img9.a.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/1/1c/T--Bolivia--collaborations_hispanic_img9.b.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#slider4"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#slider4"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <!-- end slider -->
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center mt-3 ">
+                            <div class="row mt-5">
+                                <iframe
+                                    src="https://2021.igem.org/wiki/images/d/d4/T--Bolivia--collaborations_hispanic_pdf1.pdf"
+                                    width="100%" height="500px">
+                                </iframe>
+
+                                <div class="boton mt-md-5 ">
+                                    <a class="dedcription-btn"
+                                        href="https://2021.igem.org/wiki/images/d/d4/T--Bolivia--collaborations_hispanic_pdf1.pdf">
+                                        <span class="name-descripeion">Schedule of the Tournament</span>
+                                        <div class="btn-icon descarga">
+                                            <i class="fas fa-download"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </section>
+
+
+            <section class="">
+                <div class="container px-5 mt-5">
+                    <h2 class="text-verde mb-4">GRAND FINALE</h2>
+                    <div class="row">
+                        <p>In this final event, we had two Mexican teams: iGEM UAM team represented by Andrea Sánchez and Angel Emanuel Martínez Flores and FCB - UANL team with Jorge Alberto Uribe and Julissa Janeth García, who debated for first place.</p>
+
+
+                        <p class="">The debate allowed for a broad exchange of ideas, questions, rebuttal and defense of arguments between the two teams. The debate was quite intense and ended, declaring the FCB-UANL team the winner of the 2021 Hispanic Debate Tournament.This event was sponsored by Allbiotech, which awarded the winning team with a totally free course.</p>
+
+                    </div>
+
+                    <div class="row">
+                            <div class="offset-md-2 col-md-8 ">
+                                <div id="img15" class="carousel slide" data-bs-ride="carousel" style="width: 100%;">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#img15" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#img15" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#img15" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#img15" data-bs-slide-to="3"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#img15" data-bs-slide-to="4"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#img15" data-bs-slide-to="5"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#img15" data-bs-slide-to="6"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#img15" data-bs-slide-to="7"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#img15" data-bs-slide-to="8"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#img15" data-bs-slide-to="9"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#img15" data-bs-slide-to="10"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#img15" data-bs-slide-to="11"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#img15" data-bs-slide-to="12"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#img15" data-bs-slide-to="13"
+                                            aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://2021.igem.org/wiki/images/2/21/T--Bolivia--collaborationsGranFinal.jpg"
+                                                class="d-block w-100 " alt="...">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/5/5c/T--Bolivia--collaborationsGranFinal1.jpg"
+                                                class="d-block w-100 " alt="...">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/2/24/T--Bolivia--collaborationsGranFinal2.jpg"
+                                                class="d-block w-100 " alt="...">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/9/94/T--Bolivia--collaborationsGranFinal3.jpg"
+                                                class="d-block w-100 " alt="...">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/d/d9/T--Bolivia--collaborationsGranFinal4.jpg"
+                                                class="d-block w-100 " alt="...">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/e/e0/T--Bolivia--collaborations_hispanic_img11.jpeg"
+                                                class="d-block w-100 " alt="...">
+                                        </div>
+
+                                        <!-- aaa -->
+
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/b/b4/T--Bolivia--collaborations_hispanic_img12.a.jpeg"
+                                                class="d-block w-100 " alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/a/a0/T--Bolivia--collaborations_hispanic_img12.b.jpeg"
+                                                class="d-block w-100 " alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/a/ad/T--Bolivia--collaborations_hispanic_img12.c.jpeg"
+                                                class="d-block w-100 " alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/4/4d/T--Bolivia--collaborations_hispanic_img12.d.jpeg"
+                                                class="d-block w-100 " alt="...">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/1/1c/T--Bolivia--collaborations_hispanic_img12.e.jpeg"
+                                                class="d-block w-100 " alt="...">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/a/af/T--Bolivia--collaborations_hispanic_img12.f.jpeg"
+                                                class="d-block w-100 " alt="...">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/8/84/T--Bolivia--collaborations_hispanic_img12.g.jpeg"
+                                                class="d-block w-100 " alt="...">
+
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#img15"
+                                            data-bs-slide="prev">
+                                            <span class="visually-hidden">Previous</span>
+                                            <i class="fa fa-chevron-left text-verde"></i>
+
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#img15"
+                                            data-bs-slide="next">
+                                            <i class="fa fa-chevron-right text-verde"></i>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+            </section>
+
+            <section>
+                <div class="container px-5">
+
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-md-6 ">
+                            <video src="https://2021.igem.org/wiki/images/e/e6/T--Bolivia--collaborations_video1.mp4"
+                                class="w-100" controls
+                                poster="https://2021.igem.org/wiki/images/b/b2/T--Bolivia--hispanic_bannerVideo1.png"></video>
+                        </div>
+                        <div class="col-md-6">
+                            <iframe src="https://2021.igem.org/wiki/images/e/eb/T--Bolivia--collaborations_hispanic_pdf21111.pdf"
+                                width="100%" height="500px">
+                            </iframe>
+
+                        </div>
+                        <div class="row m-0 p-0">
+                            <div class="offset-md-3 col-md-8">
+                                <div class="boton mt-md-5 ">
+                                    <a class="dedcription-btn"
+                                        href="https://2021.igem.org/wiki/images/e/eb/T--Bolivia--collaborations_hispanic_pdf21111.pdf">
+                                        <span class="name-descripeion">Infography of Debate Tournament</span>
+                                        <div class="btn-icon descarga">
+                                            <i class="fas fa-download"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-celeste">
+                <div class="container mt-5 px-5 py-5">
+                    <h2 class="text-verde mb-4">RESULTS</h2>
+                    <p>This activity could be seen thanks to iGEM TV for Latin America, where the impact of this event on the participating iGEMers was shown and where the winners also shared their experience. In addition, we inspire iGEM UAM to debate with radical movements, such as GreenPeace, to bring controversial issues around Synthetic Biology.
+</p>
+                    <video src="https://2021.igem.org/wiki/images/b/bd/T--Bolivia--collaborations_video2.mp4" controls
+                        poster="https://2021.igem.org/wiki/images/e/e7/T--Bolivia--bannerVideo2collaborations.png"
+                        class="w-100"></video>
+                </div>
+            </section>
+
+            <section>
+                <div class="container px-5">
+
+                    <h2 class="text-verde mb-4">ORGANIZING TEAM AND SUPPORT TEAM</h2>
+                    <p>All this would not have been possible without the help of those who participated in this great
+                        event by contributing their ideas and time to make it a success.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 d-flex align-items-center justify-content-center">
+                            <!-- slider  -->
+                            <div id="sldf" class="carousel slide" data-bs-ride="carousel"
+                                style="width: 100%; height: 100%;">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#sldf" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#sldf" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#sldf" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#sldf" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#sldf" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                    <button type="button" data-bs-target="#sldf" data-bs-slide-to="5"
+                                        aria-label="Slide 6"></button>
+                                    <button type="button" data-bs-target="#sldf" data-bs-slide-to="6"
+                                        aria-label="Slide 7"></button>
+                                    <button type="button" data-bs-target="#sldf" data-bs-slide-to="7"
+                                        aria-label="Slide 8"></button>
+                                    <button type="button" data-bs-target="#sldf" data-bs-slide-to="8"
+                                        aria-label="Slide 9"></button>
+                                    <button type="button" data-bs-target="#sldf" data-bs-slide-to="9"
+                                        aria-label="Slide 10"></button>
+                                    <button type="button" data-bs-target="#sldf" data-bs-slide-to="10"
+                                        aria-label="Slide 11"></button>
+                                    <button type="button" data-bs-target="#sldf" data-bs-slide-to="11"
+                                        aria-label="Slide 12"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://2021.igem.org/wiki/images/0/0f/T--Bolivia--collaborations_hispanic_img13.a.png"
+                                            class="d-block w-100 " alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/4/4e/T--Bolivia--collaborations_hispanic_img13.b.png"
+                                            class="d-block w-100 " alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/4/4d/T--Bolivia--collaborations_hispanic_img13.c.png"
+                                            class="d-block w-100 " alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/2/21/T--Bolivia--collaborations_hispanic_img13.d.png"
+                                            class="d-block w-100 " alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/5/57/T--Bolivia--collaborations_hispanic_img13.e.png"
+                                            class="d-block w-100 " alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/3/34/T--Bolivia--collaborations_hispanic_img13.f.png"
+                                            class="d-block w-100 " alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/7/72/T--Bolivia--collaborations_hispanic_img13.g.png"
+                                            class="d-block w-100 " alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/c/cd/T--Bolivia--collaborations_hispanic_img13.h.png"
+                                            class="d-block w-100 " alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/2/24/T--Bolivia--collaborations_hispanic_img13.i.png"
+                                            class="d-block w-100 " alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/2/2d/T--Bolivia--collaborations_hispanic_img13.j.png"
+                                            class="d-block w-100 " alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/e/ed/T--Bolivia--collaborations_hispanic_img13.k.png"
+                                            class="d-block w-100 " alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/0/09/T--Bolivia--collaborations_hispanic_img13.l.png"
+                                            class="d-block w-100 " alt="...">
+                                    </div>
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#sldf"
+                                    data-bs-slide="prev">
+                                    <span class="visually-hidden">Previous</span>
+                                    <i class="fa fa-chevron-left text-verde"></i>
+
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#sldf"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <!-- end slider -->
+                        </div>
+                        <div
+                            class="col-xs-12 col-md-5 pt-5 d-flex flex-column justify-content-center align-items-center">
+                            <p>Although the workshop and tournament lasted about a month, organization of the event took
+                                months of hard work. We thank the iGEM teams who dedicated many working hours, provided
+                                their social media platforms, helped us with the calendar and most of all provided us
+                                with an amazing workplace where we made new friends.</p>
+                        </div>
+                        <p class=" pt-4">We also want to thank the speakers and judges who helped us supervise the event
+                            and always provided us with continuous feedback. Thank all the participants who gave their
+                            time selflessly to learn more about these types of tools and skills to defend their
+                            positions in a more informed way. Finally, we thank all of the iGEM Bolivia staff who helped
+                            us with the workshops, and in the collection of information throughout the event - they are
+                            exceptional people and we are truly grateful for them!</p>
+
+
+                        <div class="row m-0 p-0">
+                            <div class="offset-md-2 col-md-8">
+                                <iframe
+                                    src="https://2021.igem.org/wiki/images/2/24/T--Bolivia--debateCollaborations.pdf"
+                                    width="100%" height="600px">
+                                </iframe>
+                                <div class="boton mt-md-5 ">
+                                    <a class="dedcription-btn" href="https://2021.igem.org/wiki/images/2/24/T--Bolivia--debateCollaborations.pdf">
+                                        <span class="name-descripeion">Debate Tournament Extended Version</span>
+                                        <div class="btn-icon descarga">
+                                            <i class="fas fa-download"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- end primera seccion -->
+
+
+
+            <!-- Segunda seccion -->
+            <div class="my-5" id="collaborate" style="height: 90px;" ></div>
+            <section class="bg-celeste">
+                <div class="container py-5 px-5">
+                    <h2 class="text-verde">HANDBOOK "iGEM FOR BEGINNERS"</h2>
+                    <div class="row">
+                        <div class="col-md-12 flex-column ">
+                            <h3 class="text-verde mb-4 ">MOTIVATION</h3>
+                            <p>All teams participating in the iGEM competition know that building a solid project is a
+                                great challenge, especially when considering all items that must be covered and
+                                interconnected to satisfy requirements of the competition. This becomes increasingly
+                                difficult for first time participants in the competition. To alleviate these challenges,
+                                iGEM Bolivia has designed a guide for building a successful project that meets iGEM
+                                requirements. This is our contribution for the next generation of iGEM teams and the aim
+                                is to motivate more teams to participate in the competition. In our guide we
+                                describe the strategy that iGEM Bolivia used to build its project, which includes how
+                                to: allocate time; find the right people to lead the different areas; recruit students
+                                and volunteers who want to learn and communicate science, and design a project that has
+                                highly beneficial societal impact in both the local community as well as in those of
+                                other countries.
+                            </p>
+                        </div>
+                        <div class="col-xs-12  offset-md-2 offset-lg-3 col-md-8  col-lg-6  my-5">
+                            <!-- slider  -->
+                            <div id="other1" class="carousel slide " style="width: 100%;" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#other1" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#other1" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://2021.igem.org/wiki/images/6/60/T--Bolivia--collaborations_portada11.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/3/3e/T--Bolivia--collaborationscontraportada.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#other1"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#other1"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <!-- end slider -->
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section>
+                <div class="container px-5">
+                    <h2 class="text-verde mb-4">OBJECTIVE</h2>
+                    <p>The objective of this guide, “iGEM for Beginners”, is to help to form teams that will attend
+                        future iGEM competitions in an effective and efficient way by taking into account all of the
+                        steps that the iGEM foundation requires to win a gold medal.</p>
+                </div>
+            </section>
+
+
+            <section class="bg-celeste">
+                <div class="container px-5 py-5">
+                    <h2 class="text-verde mb-4">EXPECTED OUTCOME</h2>
+                    <p>
+                        What can you find in the guide "iGEM for Beginners"? In addition to the strategy to build your team, this guide has advice, experiences and anecdotes that the current iGEM Bolivian team want to share with those considering their participation in the future. The adversities that future teams may encounter along the way will also be taken into account. We provide suggestions so that these future teams can solve problems that are likely to be encountered.</p>
+                    <p>
+                        To overcome the language barrier, we think it would be very useful for the guide to be
+                        accessible in different languages. Since iGEM Bolivia is a new team, we ask the iGEM ambassadors to
+                        provide us with their feedback, as these tips are also intended to be part of the guide. We hope that the generated guide will become a valuable tool that imparts in a positive way to other iGEM teams of future generations.
+                    </p>
+                </div>
+            </section>
+
+
+
+            <section class="">
+                <div class="container px-5 py-5">
+                    <h2 class="text-verde mb-4">HOW DID WE BUILD THE GUIDE?</h2>
+                    <p>
+                        We began by generating an outline for the guide based on the experiences shared with us by more
+                        experienced teams since iGEM Bolivia is a new team this year. We began by organizing meetings to
+                        share anecdotes and useful tips. This involved sending out a questionnaire to discover teams
+                        that were interested in helping us on our mission. After explaining the idea of building a guide
+                        to the interested teams, we then held meetings with eleven experienced teams that included Paris
+                        BME, NJU-CHINA, TEC-Costa Rica and Brazil, among others
+                    </p>
+                    <div class="row d-flex justify-content-center m-0 p-0 ">
+                        <div class="col-lg-8 ">
+
+                            <!-- slider  -->
+                            <div id="other2" class="carousel slide my-slider" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#other2" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#other2" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#other2" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://2021.igem.org/wiki/images/4/40/T--Bolivia--collaborations_hand_img2.a.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/e/ee/T--Bolivia--collaborations_hand_img2.b.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/9/98/T--Bolivia--collaborations_hand_img2.c.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#other2"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#other2"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <p class="my-4">These meetings were held in different languages (English, Portuguese and Spanish) to enable better communication with the teams. In these meetings we asked questions
+                        addressing past and present experiences on topics that included the significance of iGEM to each team, strategies for team assembly, and how to coordinate between different work
+                        areas (laboratory, human practices, integrated human practices, collaborations, scientific
+                        communication and wiki). Additionally, we received recommendations in each of these areas and
+                        also gathered information for fundraising ideas.</p>
+
+
+
+                    <div class="row d-flex justify-content-center m-0 p-0">
+                        <div class="col-lg-8 ">
+
+                            <!-- slider  -->
+                            <div id="other3" class="carousel slide my-slider" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#other3" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#other3" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#other3" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://2021.igem.org/wiki/images/1/10/T--Bolivia--collaborations_hand_img3.a.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/9/96/T--Bolivia--collaborations_hand_img3.b.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/8/87/T--Bolivia--collaborations_hand_img3.c.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#other3"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#other3"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <p class="my-4">Each team provided very useful answers that were invaluable to start the process of writing the iGEM team guide. In summary, our conclusions from these meetings
+                        included: 1) It is necessary to organize time and comply with deadlines; 2) Communication within
+                        teams is essential to ensure a more productive work environment; 3) Taking initiative is
+                        required for iGEMers to be successful in designing a project that is likely to have high impact.
+                    </p>
+
+                    <div class="row d-flex justify-content-center m-0 p-0">
+                        <div class="col-lg-8 ">
+
+                            <!-- slider  -->
+                            <div id="other4" class="carousel slide my-slider" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#other4" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#other4" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#other4" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://2021.igem.org/wiki/images/a/aa/T--Bolivia--collaborations_hand_img4.a.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/3/33/T--Bolivia--collaborations_hand_img4.b.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/5/57/T--Bolivia--collaborations_hand_img4.c.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#other4"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#other4"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-celeste">
+                <div class="container py-5 px-5">
+                    <div class="row">
+                        <h2 class="text-verde mb-4">TEAMS</h2>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://2021.igem.org/wiki/images/6/61/T--Bolivia--collaborations_hand_img5.png"
+                                class="w-100" alt="">
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://2021.igem.org/wiki/images/e/ea/T--Bolivia--collaborations_hand_img6.png"
+                                class="w-100" alt="">
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://2021.igem.org/wiki/images/3/39/T--Bolivia--collaborations-img8.png"
+                                class="w-100" alt="">
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://2021.igem.org/wiki/images/b/b2/T--UParis_BME--LogoIGEMUparis.png"
+                                class="w-100" alt="">
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://2021.igem.org/wiki/images/8/80/T--Bolivia--collaborations_hand_img10.png"
+                                class="w-100" alt="">
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://2021.igem.org/wiki/images/2/2b/T--Bolivia--collaborations_hand_img11.png"
+                                class="w-100" alt="">
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://2021.igem.org/wiki/images/a/aa/T--Bolivia--collaborations_hand_img12.png"
+                                class="w-100" alt="">
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://2021.igem.org/wiki/images/7/76/T--Bolivia--collabotations_teamChena.png"
+                                width="65%" alt="">
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://2021.igem.org/wiki/images/7/7d/T--Bolivia--collabotations_teamCosta.png"
+                                class="w-100" alt="">
+                        </div>
+
+                    </div>
+                    <div class="row my-5">
+                        <div class="  col-xs-12 col-sm-12 col-md-4 col-lg-4 d-flex align-items-center">
+                            <img src="https://2021.igem.org/wiki/images/a/a9/T--Rio_UFRJ_Brazil--osirisrioufrj.png"
+                                class="w-100" alt="">
+                        </div>
+
+                    </div>
+                    <div class="row mt-5">
+                            <div class="offset-2 col-8">
+                                <iframe src="https://2021.igem.org/wiki/images/2/25/T--Bolivia--collaborations_handbo1.pdf" width="100%"
+                                height="700px">
+                            </iframe>
+                    
+                            <div class="boton mt-md-5 ">
+                                <a class="dedcription-btn"
+                                    href="https://2021.igem.org/wiki/images/2/25/T--Bolivia--collaborations_handbo1.pdf">
+                                    <span class="name-descripeion">Download pdf</span>
+                                    <div class="btn-icon descarga">
+                                        <i class="fas fa-download"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+            </section>
+            <!-- end segunda sesccion -->
+
+
+            <!-- Tercera Secciion -->
+            <section id="participations">
+                <div class="container px-5">
+                    <h2 class="text-verde mb-4">OUR PARTICIPATIONS</h2>
+                    <h3 class="text-verde mb-4">HOW WE STARTED?</h3>
+                    <p>Being our first participation, we decided to contact people who could guide our way within the
+                        competition, resolve our doubts and give us advice to carry out our ideas. That is why we turned
+                        to Heber Torres and Daniel Dominguez for advice.</p>
+                </div>
+            </section>
+
+            <section class="bg-celeste">
+                <div class="container py-5 px-5">
+                    <div class="row d-flex justify-content-center align-items-center ">
+                        <div
+                            class="col-lg-4 d-flex flex-column justify-content-center align-items-center card-bg-celeste ">
+                            <h2 class="text-verde mb-4">INTERVIEW WITH HEBER TORRES</h2>
+
+                            <p class="">Heber Torres, Ambassador for Latin America for After iGEM, carried out a project
+                                on heavy metals in 2012; We met him and solved doubts about the competition, and the
+                                design of our arsenic biosensor. He gave us practical advice and the necessary
+                                bibliography.</p>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="row d-flex justify-content-center m-0 p-0">
+                                <!-- slider  -->
+                                <div id="entrevista1" class="carousel slide my-slider" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#entrevista1" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#entrevista1" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#entrevista1" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://2021.igem.org/wiki/images/7/7d/T--Bolivia--collaborations_other_img1.a.png"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/c/c7/T--Bolivia--collaborations_other_img1.b.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/a/ad/T--Bolivia--collaborations_other_img1.c.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#entrevista1"
+                                        data-bs-slide="prev">
+                                        <i class="fa fa-chevron-left text-verde"></i>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#entrevista1"
+                                        data-bs-slide="next">
+                                        <i class="fa fa-chevron-right text-verde"></i>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <!-- end slider -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Entrevistta 2 -->
+            <section>
+                <div class="container py-5 px-5">
+                    <div class="row d-flex justify-content-center align-items-center ">
+
+                        <div class="col-lg-8">
+                            <div class="row d-flex justify-content-center m-0 p-0">
+                                <!-- slider  -->
+                                <div id="entrevista2" class="carousel slide my-slider" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#entrevista2" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#entrevista2" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#entrevista2" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://2021.igem.org/wiki/images/c/c7/T--Bolivia--collaborations_other_img2.a.png"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/d/d6/T--Bolivia--collaborations_other_img2.b.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://2021.igem.org/wiki/images/d/d6/T--Bolivia--collaborations_other_img2.c.png"
+                                                class="d-block w-100" alt="...">
+
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#entrevista2"
+                                        data-bs-slide="prev">
+                                        <i class="fa fa-chevron-left text-verde"></i>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#entrevista2"
+                                        data-bs-slide="next">
+                                        <i class="fa fa-chevron-right text-verde"></i>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <!-- end slider -->
+                            </div>
+                        </div>
+
+                        <div
+                            class="col-lg-4 d-flex flex-column justify-content-center align-items-center card-bg-celeste ">
+                            <h2 class="text-verde mb-4">INTERVIEW WITH DANIEL DOMINGUEZ</h2>
+
+                            <p class="">Daniel Dominguez, co-founder of AllBiotech, has vast experience in scientific
+                                divulgation and has seen many projects within iGEM. He helped us land our ideas for the
+                                Collaboration area projects and make it desirable to other iGEM teams.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- en entrevista2 -->
+
+
+            <section class="bg-celeste" id="uan">
+                <div class="container px-5 py-5">
+                    <h2 class="text-verde mb-4">COLLABORATION WITH iGEM UANL</h2>
+                    <p>The UANL team has been participating in this competition for 10 years. That is why they helped us
+                        to solve our doubts about participating in iGEM from the elaboration of the project to its
+                        presentation before the judges.</p>
+                    <p>They were one of the teams with which we collaborated in the organization of <strong
+                            class="text-verde">the iGEM 2021 Hispanic Workshop and Tournament</strong>, their
+                        representatives obtained first place in the Tournament.</p>
+                    <p>We were able to collaborate in one of their "Fire Detective" activities, where we were able
+                        to talk about the impact of our small actions on forest fires and we also talked a bit about
+                        our culture and the day to day life of iGEM teams in Latin America.</p>
+                    <div class="row d-flex justify-content-center m-0 p-0">
+                        <!-- slider  -->
+                        <div class="col-7 ">
+                            <div id="uanl" class="carousel slide " data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#uanl" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#uanl" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#uanl" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#uanl" data-bs-slide-to="3"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://2021.igem.org/wiki/images/3/3b/T--Bolivia--collaborations_other_img3.a.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/6/60/T--Bolivia--collaborations_other_img3.b.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/b/b8/T--Bolivia--collaborations_other_img3.c.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/0/05/T--Bolivia--collaborations_other_img3.d.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#uanl"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#uanl"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div>
+                        <!-- end slider -->
+                    </div>
+                    <div class="mt-4">
+
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="water">
+                <div class="container px-5">
+                    <h2 class="text-verde mb-4">COLLABORATION WITH WATERLOO iGEM</h2>
+                    <p>We had the opportunity to communicate with this Canadian team, which already participated in the
+                        iGEM competition in past years (2014-2021) presenting a project related to heavy metals that
+                        pollute water, REMINE.</p>
+                    <p>In the first meeting we were able to talk about the different areas of work we have in iGEM, with
+                        the aim of dispelling doubts and asking for some advice to continue with the work. With this
+                        meeting we were able to learn more about the project presented and how to solve some
+                        difficulties that we had and were similar to this team.</p>
+                    <p class="mt-4">In the second meeting, we had the ¨wiki¨ section of both teams, since last year they
+                        won the Best Wiki category. The team chose to ask pertinent questions to do a good job on our
+                        wiki. Waterloo gave us useful answers along with their experiences and advice.</p>
+                    <div class="row d-flex justify-content-center m-0 p-0">
+                        <!-- slider  -->
+                        <div class="col-7 ">
+                            <div id="waterloo" class="carousel slide " data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#waterloo" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#waterloo" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#waterloo" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#waterloo" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#waterloo" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                    <button type="button" data-bs-target="#waterloo" data-bs-slide-to="5"
+                                        aria-label="Slide 6"></button>
+                                    
+
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://2021.igem.org/wiki/images/0/0b/T--Bolivia--collaborations_other_img4.a.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/e/ec/T--Bolivia--collaborations_other_img4.b.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/8/80/T--Bolivia--collaborations_other_img4.c.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/4/4c/T--Bolivia--collaborations_other_img5.a.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/0/06/T--Bolivia--collaborations_other_img5.b.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+                                    
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/4/49/T--Bolivia--collaborations_other_img5.d.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#waterloo"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#waterloo"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div>
+                        <!-- end slider -->
+                    </div>
+
+
+                </div>
+            </section>
+
+
+            <!-- COLLABORATION WITH iGEM DÜSSELDORF  -->
+            <section class="bg-celeste" id="duss">
+                <div class="container px-5 py-5">
+                    <h2 class="text-verde mb-4">COLLABORATION WITH iGEM DÜSSELDORF</h2>
+                    <p>With iGEM Düsseldorf we were able to generate a collaboration by making a card that reflected our
+                        work. Despite suffering some mishaps in sending our cards, we were able to share our work with
+                        other teams around the world and also receive the cards back virtually. It was exciting to have
+                        been one of the few teams from Latin America to be able to participate and share our project
+                        with more teams.</p>
+
+                    <div class="row d-flex justify-content-center m-0 p-0">
+                        <!-- slider  -->
+                        <div class="col-7 ">
+                            <div id="dusse" class="carousel slide " data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#dusse" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#dusse" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+
+
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://2021.igem.org/wiki/images/a/a7/T--Bolivia--collaborationsDusse.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/9/96/T--Bolivia--collaborationsDusse2.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#dusse"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#dusse"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div>
+                        <!-- end slider -->
+<div class="row mt-5">
+                            <div class="col-md-6">
+                                <iframe src="https://2021.igem.org/wiki/images/f/f9/T--Stockholm--Postcard1.pdf" width="100%"
+                                    height="500px">
+                                </iframe>
+                        
+                                <div class="boton mt-md-5 ">
+                                    <a class="dedcription-btn"
+                                        href="https://2021.igem.org/wiki/images/f/f9/T--Stockholm--Postcard1.pdf">
+                                        <span class="name-descripeion">Download pdf</span>
+                                        <div class="btn-icon descarga">
+                                            <i class="fas fa-download"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <iframe src="https://2021.igem.org/wiki/images/1/17/T--Stockholm--Postcard2.pdf" width="100%"
+                                    height="500px">
+                                </iframe>
+                        
+                                <div class="boton mt-md-5 ">
+                                    <a class="dedcription-btn"
+                                        href="https://2021.igem.org/wiki/images/1/17/T--Stockholm--Postcard2.pdf">
+                                        <span class="name-descripeion">Download pdf</span>
+                                        <div class="btn-icon descarga">
+                                            <i class="fas fa-download"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- COLLABORATION WITH IGEM PATRAS  -->
+
+            <section id="patra">
+                <div class="container px-5">
+                    <h2 class="text-verde mb-4">COLLABORATION WITH iGEM PATRAS</h2>
+                    <p>iGEM Bolivia, along with many other teams, participated in the activity organized by iGEM Patras.
+                        This activity was held in commemoration of women scientists. For this we had to choose a
+                        representative scientist for our team, it was Rosalind Franklin. In addition, we share photos of
+                        the iGEM Bolivia women's team.</p>
+                    <p>Undoubtedly, this activity allows us to highlight the importance and impact that women have in
+                        science, so we did not hesitate to collaborate in this activity.</p>
+<div class="row mt-5 d-flex justify-content-center">
+                            <div class="col-xs-12  offest-2 col-md-8">
+                                <img src="https://2021.igem.org/wiki/images/f/f2/T--Bolivia--collaboratios_patras.jpeg" class="w-100" alt="">
+                            </div>
+                            
+                            <div class="col-xs-12 mt-5 col-md-8">
+                                <div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/r539pish2kco47xb" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="padding:8px;text-align:right;margin:0;"><a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://padlet.net/embeds/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Hecho con Padlet"></a></div></div>
+                            </div>
+
+                        </div>
+                    <!-- <div class="row d-flex justify-content-center m-0 p-0"> -->
+                    <!-- slider  -->
+                    <!-- <div class="col-7 ">
+                            <div id="patras" class="carousel slide " data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#patras" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#patras" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://2021.igem.org/wiki/images/1/13/T--Bolivia--collaborations_other_img6.a.png"
+                                            class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://2021.igem.org/wiki/images/a/af/T--Bolivia--collaborations_other_img6.b.png"
+                                            class="d-block w-100" alt="...">
+
+                                    </div>
+
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#patras"
+                                    data-bs-slide="prev">
+                                    <i class="fa fa-chevron-left text-verde"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#patras"
+                                    data-bs-slide="next">
+                                    <i class="fa fa-chevron-right text-verde"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div> -->
+                    <!-- end slider -->
+                    <!-- </div> -->
+
+                </div>
+            </section>
+        </div>
+    </div>
+
+</div>
+<br><br><br><br><br><br><br>
+
+
+
+
+<footer class="footer">
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+
+        <ul class="social-icon">
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/iGEMBolivia">
+                    <i class="fab fa-facebook text-white"></i>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="https://twitter.com/igemBolivia">
+                    <i class="fab fa-twitter text-white"></i>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/company/igem-bolivia2021/mycompany/">
+                    <i class="fab fa-linkedin-in text-white"></i>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/igembolivia/?hl=es-la">
+                    <i class="fab fa-instagram text-white"></i>
+                </a></li>
+<li class="social-icon__item"><a class="social-icon__link" href="https://www.youtube.com/channel/UCQD9YNYrCGa2JKQithI5wkA">
+                    <i class="fab fa-youtube text-white"></i>
+                </a></li>
+<li class="social-icon__item"><a class="social-icon__link" href="https://open.spotify.com/show/1FepUwBlSiNmBvh5kkKsqz?si=45332b1d31764751">
+                    <i class="fab fa-spotify text-white"></i>
+                </a></li>
+        </ul>
+
+        <div class="row p-0 m-0 d-flex">
+            <div class="">
+                <ul class="my-lista navbar-nav d-flex  justify-content-center">
+                    <div class="row d-flex justify-content-center">
+
+                        <div class="col-xs-12 col-sm-6 col-md-6 d-md-flex justify-content-end ">
+                            <li class="nav-item m-0  mx-md-5 hover-nav">
+                                <a class="nav-link text-center active" aria-current="page" href="https://2021.igem.org/Team:Bolivia">HOME</a>
+
+                            </li>
+                            <li class="nav-item m-0 dropdown">
+                                <a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    AWARDS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Inclusivity">
+                                            INCLUSIVITY</a></p>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Excellence">EXCELLENCE</a>
+                                        </p>
+                                    </li>
+ <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Education">EDUCATION </a></p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item m-0  mx-md-5 dropdown">
+                                <a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    TEAM
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class=" text-center dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Collaborations">COLLABORATIONS</a>
+                                        </p>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Team">TEAM</a>
+                                        </p>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Attributions">ATTRIBUTIONS</a></p>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 d-md-flex justify-content-start">
+                            <li class="nav-item  m-0  mx-md-5 dropdown">
+                                <a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    PROJECT
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Description">DESCRIPTION</a></p>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Design">DESIGN</a>
+                                        </p>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Engineering">ENGINEERNING</a></p>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Contribution">CONTRIBUTION</a></p>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/LaboratoryProtocols">LAB
+                                            PROTOCOLS</a></p>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://2021.igem.org/Team:Bolivia/Hardware">HARDWARE</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item m-0  mx-md-5 dropdown">
+                                <a class="nav-link text-center dropdown-toggle" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    HP
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Human_Practices">HUMAN PRACTICES</a></p>
+                                    </li>
+                                   
+                                    <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Implementation">PROPOSED IMPLEMENTATION</a></p>
+                                    </li>
+                                     <li><a class="dropdown-item" href="https://2021.igem.org/Team:Bolivia/Communication">COMMUNICATION</a></p>
+                                </li>
+                                </ul>
+                                </p>
+                            </li>
+                        </div>
+
+                    </div>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="row  p-0 m-0">
+            <div class="col-xs-6 col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
+                <img src="https://2021.igem.org/wiki/images/1/19/T--Bolivia--sponsorAniaki.png" width="30%" alt="">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
+                <img src="https://2021.igem.org/wiki/images/3/38/T--Bolivia--Bago.png" width="50%" alt="">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
+                <img src="https://2021.igem.org/wiki/images/4/46/T--Bolivia--IDT.png" width="50%" alt="">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
+                <img src="https://2021.igem.org/wiki/images/1/15/T--Bolivia--ZymoResearch.png" width="40%" alt="">
+            </div>
+        </div>
+<style>
+
+.footer {
+    position: relative;
+    width: 100%;
+    background: var(--celeste);
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    bottom: -25px;
+  }
+  
+  .social-icon
+   {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+
+    background: transparent;
+
+  }
+  
+  .social-icon__item {
+    list-style: none;
+  
+    background: transparent;
+
+}
+  
+  .social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+
+    background: transparent;
+
+  }
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+
+    background: transparent;
+
+  }
+  
+  
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("https://2021.igem.org/wiki/images/2/23/T--Bolivia--footerWave.png");
+    background-size: 1000px 100px;
+  }
+  
+  .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+  }
+  
+  .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+  }
+  
+  .wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+  }
+  
+  .wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+  }
+  
+  @keyframes animateWaves {
+    0% {
+      background-position-x: 1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position-x: -1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+
+
+@media(max-width:768px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+}
+</style>
+    </footer>
+</body>
+
+<script src="https://2021.igem.org/wiki/index.php?title=Template:Bolivia/BootstrapJS&action=raw&ctype=text/javascript"></script>
+
+<script src="https://2021.igem.org/wiki/index.php?title=Template:Bolivia/ButtonFlo&action=raw&ctype=text/javascript"></script>
+<script>
+function navBarColor() {
+        document.getElementById('nav').classList.add('my-nav')
+    }
+    window.addEventListener('scroll', (e) => {
+        let y = window.scrollY;
+        if (y >= 500) {
+            document.getElementById('nav').classList.add('my-nav')
+        } else {
+            document.getElementById('nav').classList.remove('my-nav')
+
+        }
+        if (y > 9800) {
+            document.getElementById('pestania2').classList.remove('box-icon-select')
+            document.getElementById('pestania3').classList.add('box-icon-select')
+            document.getElementById('pestania1').classList.add('box-icon-select')
+        } else {
+            document.getElementById('pestania3').classList.remove('box-icon-select')
+            document.getElementById('pestania2').classList.add('box-icon-select')
+            document.getElementById('pestania1').classList.add('box-icon-select')
+        }
+
+
+        if (y > 16472) {
+            document.getElementById('pestania1').classList.remove('box-icon-select')
+            document.getElementById('pestania2').classList.remove('box-icon-select')
+            document.getElementById('pestania3').classList.remove('box-icon-select')
+            document.getElementById('pestania4').classList.add('box-icon-select')
+            document.getElementById('pestania5').classList.add('box-icon-select')
+        } else {
+            document.getElementById('pestania4').classList.remove('box-icon-select')
+            document.getElementById('pestania5').classList.remove('box-icon-select')
+        }
+        
+        if(y>17448){
+            document.getElementById('pestania4').classList.add('box-icon-select')
+            document.getElementById('pestania6').classList.add('box-icon-select')
+            document.getElementById('pestania5').classList.remove('box-icon-select')
+        }else{
+            document.getElementById('pestania6').classList.remove('box-icon-select')
+        }
+
+        if(y>18448){
+            document.getElementById('pestania4').classList.add('box-icon-select')
+            document.getElementById('pestania7').classList.add('box-icon-select')
+            document.getElementById('pestania6').classList.remove('box-icon-select')
+        }else{
+            document.getElementById('pestania7').classList.remove('box-icon-select')
+        }
+        if(y>19448){
+            document.getElementById('pestania4').classList.add('box-icon-select')
+            document.getElementById('pestania8').classList.add('box-icon-select')
+            document.getElementById('pestania7').classList.remove('box-icon-select')
+        }else{
+            document.getElementById('pestania8').classList.remove('box-icon-select')
+        }
+        if(y>20448){
+            document.getElementById('pestania4').classList.add('box-icon-select')
+            document.getElementById('pestania9').classList.add('box-icon-select')
+            document.getElementById('pestania8').classList.remove('box-icon-select')
+        }else{
+            document.getElementById('pestania9').classList.remove('box-icon-select')
+        }
+        
+
+    })
+
+
+</script>
+
+</html>
